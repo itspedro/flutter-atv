@@ -45,8 +45,7 @@ class ProductPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Produtos'),
-        backgroundColor: Colors.black,
+        title: const Text('Produtos')
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(12),

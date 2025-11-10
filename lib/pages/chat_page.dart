@@ -44,7 +44,7 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Chats'), backgroundColor: Colors.black),
+      appBar: AppBar(title: const Text('Chats')),
       body: ListView.builder(
         itemCount: chats.length,
         itemBuilder: (context, index) {
